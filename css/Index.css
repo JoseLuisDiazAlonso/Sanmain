@@ -1,0 +1,55 @@
+/*Damos formato a la fuente*/
+
+@font-face {
+    font-family: 'longa_iberica';
+    src: url(../fonts/longa_iberica/LongaIberica-DEMO.ttf) format('truetype');
+}
+
+h1 {
+    font-family: 'longa_iberica', sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
+    color: transparent;
+    background-image: linear-gradient(45deg, red, orange, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    letter-spacing: 5px;
+}
+
+/*Damos formato al nav-bar*/
+
+.navbar-brand {
+    font-family: 'longa_iberica', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 5px;
+}
+
+/*Damos formato al footer*/
+
+footer {
+    background-color: black;
+}
+
+h2 {
+    font-family: 'longa_iberica', sans-serif;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.quienes_somos {
+    width: 20%;
+}
+
+li {
+    color: white;
+}
