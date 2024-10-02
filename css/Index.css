@@ -29,6 +29,21 @@ h1 {
 
 /*Damos formato al footer*/
 
+.quienes_somos,
+.contacto,
+.ultimas_noticias {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.phone,
+.fax,
+.email,
+.location {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
 footer {
     background-color: black;
 }
@@ -46,10 +61,24 @@ p {
     color: white;
 }
 
-.quienes_somos {
-    width: 20%;
-}
-
 li {
     color: white;
+}
+
+.ultimas_noticias p {
+    color: orange;
+}
+
+/*Damos formato a la estructura de la política de privacidad, el aviso legal y las Cookies*/
+.conditions {
+    list-style-type: none;
+
+}
+
+.conditions a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px 15px;
+    /*Relleno interno para aumentar el área clicable*/
+    display: block;
 }
