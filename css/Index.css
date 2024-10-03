@@ -17,6 +17,27 @@ h1 {
     letter-spacing: 5px;
 }
 
+/*Damos formato al Header*/
+
+header {
+    background: linear-gradient(180deg, #0d1b2a, #1b263b, #415a77, #778da9, #bc6c25);
+}
+
+.header {
+    display: flex;
+    /*Usamos display flex para colocar los elementos en fila*/
+    align-items: center;
+
+}
+
+.header img {
+    margin-left: 50px;
+}
+
+.header h1 {
+    margin-left: 30px;
+}
+
 /*Damos formato al nav-bar*/
 
 .navbar-brand {
