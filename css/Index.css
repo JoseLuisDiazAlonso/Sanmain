@@ -48,6 +48,95 @@ header {
     letter-spacing: 5px;
 }
 
+/* Contenedor del enlace con la imagen */
+.enlace_reserva {
+    position: relative;
+    /* Define que el contenedor es relativo */
+    display: flex;
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    margin-top: 20px;
+    /* Espacio superior */
+    width: 100%;
+    /* Asegura que el contenedor ocupe el ancho completo */
+    max-width: 800px;
+    /* Limita el ancho máximo del contenedor */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centra el contenedor */
+}
+
+/*Diseño para la reserva de Entradas.*/
+
+.presentacion p {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+/* Enlace dentro del contenedor */
+.enlace_reserva a {
+    position: relative;
+    /* Define un contexto de posicionamiento relativo */
+    display: inline-block;
+    text-decoration: none;
+    /* Quita el subrayado del enlace */
+    width: 100%;
+    /* El ancho del enlace es igual al contenedor */
+}
+
+/* Imagen dentro del enlace */
+.enlace_reserva img {
+    width: 100%;
+    /* Asegura que la imagen ocupe el ancho del enlace */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    /* Sombra alrededor de la imagen */
+}
+
+/* Texto superpuesto sobre la imagen */
+.enlace_reserva .overlay-text {
+    position: absolute;
+    /* Posiciona el texto respecto a .enlace_reserva */
+    top: 50%;
+    /* Centra verticalmente */
+    left: 50%;
+    /* Centra horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Ajuste para centrarlo exactamente */
+    font-family: 'longa_iberica', sans-serif;
+    /* Fuente del texto */
+    font-size: 24px;
+    /* Tamaño del texto */
+    font-weight: bold;
+    /* Peso de la fuente */
+    color: white;
+    /* Color del texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Sombra para resaltar */
+    text-align: center;
+    z-index: 1;
+    /* Asegura que esté por encima de la imagen */
+    pointer-events: none;
+    /* Permite que el clic se registre en el enlace a pesar del texto */
+    padding: 10px;
+    /* Espacio interno del texto */
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo semitransparente para que se vea mejor */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+
 /*Damos formato al footer*/
 
 .quienes_somos,
