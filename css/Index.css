@@ -104,6 +104,7 @@ header {
 }
 
 /* Texto superpuesto sobre la imagen */
+
 .enlace_reserva .overlay-text {
     position: absolute;
     /* Posiciona el texto respecto a .enlace_reserva */
@@ -136,6 +137,41 @@ header {
     /* Bordes redondeados */
 }
 
+/*Diseño de la Introducción de Samain*/
+
+.Samain {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#titulo2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.Samain p {
+    color: black;
+    font-size: 20px;
+}
+
+.boton_samain {
+    border-radius: 10px;
+    background-color: rgb(255, 166, 0);
+    font-weight: bolder;
+    cursor: pointer;
+    /*Cambia el cursor al pasar*/
+    transition: transform 0.3s ease;
+    /*Transición suave*/
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.boton_samain:hover {
+    transform: scale(1.1);
+    /*Aumenta el tamaño un 10%*/
+}
+
 
 /*Damos formato al footer*/
 
@@ -156,6 +192,7 @@ header {
 
 footer {
     background-color: black;
+    margin-top: 20px;
 }
 
 h2 {
@@ -191,4 +228,14 @@ li {
     padding: 10px 15px;
     /*Relleno interno para aumentar el área clicable*/
     display: block;
+}
+
+.logo {
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.logo img {
+    margin-left: 40px;
 }
